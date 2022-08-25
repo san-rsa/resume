@@ -1,8 +1,8 @@
 html {
     background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(80deg, #000000c0 50%, #000000c9 50%);
+    background-image: -webkit-linear-gradient(80deg, #000000cb 50%, #000000c5 50%);
     min-height: 1000px;
-    color: rgb(151, 211, 211);
+    color: rgb(9, 219, 247);
     text-decoration-color: azure;
     font-family: 'helvetica neue';
     padding: 0 12rem;
@@ -10,7 +10,8 @@ html {
 }
     
 a {
-    color: rgb(219, 217, 191);
+    color: rgb(253, 247, 247);
+    text-decoration: none;
     
 }
 a:hover{
@@ -36,7 +37,11 @@ p{
 }
 
 .edu {
-    margin-bottom: 2px;
+    margin-bottom: 19px;
+}
+
+.edul {
+    margin-bottom: 10px;
 }
 
 .lik {
@@ -62,6 +67,10 @@ p{
 }
 .hd:active {
     color: #c72b2bc0;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width:900px) {
